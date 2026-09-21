@@ -1,0 +1,107 @@
+/* Modern Reset & Centering Container */
+.counter-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #f3f4f6;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+}
+
+/* Card Layout */
+.counter-card {
+  background: #ffffff;
+  padding: 2.5rem;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+  text-align: center;
+  width: 320px;
+}
+
+/* Counter Display Screen */
+.counter-display {
+  font-size: 4rem;
+  font-weight: 700;
+  color: #1f2937;
+  margin: 0 0 1.5rem 0;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Button Row Layout */
+.button-group {
+  display: flex;
+  gap: 0.75rem;
+  margin-bottom: 1.25rem;
+}
+
+/* Base Button Styling */
+button {
+  flex: 1;
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+button:active {
+  transform: scale(0.96);
+}
+
+/* Specific Button Colors */
+.btn-increment {
+  background-color: #10b981;
+  color: white;
+}
+
+.btn-increment:hover {
+  background-color: #059669;
+}
+
+.btn-decrement {
+  background-color: #ef4444;
+  color: white;
+}
+
+.btn-decrement:hover {
+  background-color: #dc2626;
+}
+
+.btn-amount {
+  background-color: #3b82f6;
+  color: white;
+  width: 100%;
+}
+
+.btn-amount:hover {
+  background-color: #2563eb;
+}
+
+/* Input Form Layout */
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-top: 0.5rem;
+}
+
+/* Styled Number Input */
+input[type="number"] {
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 1.1rem;
+  border: 2px solid #e5e7eb;
+  border-radius: 8px;
+  text-align: center;
+  box-sizing: border-box;
+  outline: none;
+  transition: border-color 0.2s ease;
+}
+
+input[type="number"]:focus {
+  border-color: #3b82f6;
+}
