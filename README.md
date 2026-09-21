@@ -2,6 +2,9 @@
 
 A simple counter application built with React, Vite, Redux Toolkit, and React Redux.
 
+## Live Demo
+https://jkumar-j.github.io/redux-toolkit-counter/
+
 ## Features
 
 - Increment the counter by one.
